@@ -108,7 +108,18 @@
                         </div>
                     </td>
                     <td>
-
+                        <form>
+                            <input type="text" placeholder="name" required>
+                            <input type="email" placeholder="email" required><br>
+                            <textarea placeholder="your message" required rows="5"></textarea><br>
+                            <button class="btn_one">send</button>
+                            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_lhljm7o8DiMcqSc7GBcme");
+})();
+</script>
+                        </form> 
                     </td>
                 </tr>
             </table>

@@ -96,11 +96,11 @@ header table {
     transition:0.4s ease-in-out;
 }
 #navigation a:hover{
-    border-bottom:2px solid #fff;
+    border-bottom:2px solid rgb(44, 44, 44);
 }
 #top_part {
     width:100%;
-    border:2vh solid #fff;
+    border:2vh solid rgb(31, 31, 31);
 }
 #top_part tr td{
     width:50%;
@@ -140,7 +140,7 @@ header table {
     cursor: pointer;
     color:#fff;
     background:rgb(255, 230, 0);
-    box-shadow:0px 10px 30px rgba(255, 66, 107,0.8);
+    box-shadow:0px 10px 30px rgba(70, 70, 70, 0.8);
 }
 .btn_one {
     font-size:18px;
