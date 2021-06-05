@@ -7,7 +7,7 @@ body {
     max-width:100vw;
     overflow-x:hidden;
     scroll-behavior: smooth;
-    background-color: #000;
+    background-color: rgb(34, 34, 34);
 }
 #loading {
     width: 100vw;
@@ -39,7 +39,7 @@ header {
     position:fixed;
     font-weight:bold;
     background:transparent;
-    color:rgb(39, 39, 39);
+    color:rgb(255, 255, 255);
     transition:0.4s ease-in-out;
     z-index:2;
 }
@@ -55,7 +55,7 @@ header table {
 #magnify {
     width:100vw;
     height:100vh;
-    background:rgba(0, 0, 0, 0.92);
+    background:rgba(214, 214, 214, 0.92);
     position:fixed;
     z-index:4;
     display:none;
@@ -67,7 +67,7 @@ header table {
     top:0;
     right:0;
     margin:20px 40px;
-    color:rgb(29, 29, 29);
+    color:rgb(230, 230, 230);
     transition:0.4s ease-in-out;
 }
 #magnify h1:hover{
@@ -97,11 +97,11 @@ header table {
     transition:0.4s ease-in-out;
 }
 #navigation a:hover{
-    border-bottom:2px solid rgb(44, 44, 44);
+    border-bottom:2px solid rgb(187, 187, 187);
 }
 #top_part {
     width:100%;
-    border:2vh solid rgb(31, 31, 31);
+    border:2vh solid rgb(253, 253, 253);
 }
 #top_part tr td{
     width:50%;
